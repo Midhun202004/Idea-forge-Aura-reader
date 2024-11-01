@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Reader</title>
+    <link rel="stylesheet" href="Aura.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Aura Reader</h1>
+        <p>Select the activities you've completed:</p>
+        <div id="activity-picker">
+            <button class="activity" data-aura="You feel energized and positive!" data-points="150">Helping others</button>
+            <button class="activity" data-aura="You feel embarassed" data-points="-8">Fell on the floor</button>
+            <button class="activity" data-aura="You feel cheerful and grateful!" data-points="15">Respecting elders</button>
+            <button class="activity" data-aura="You feel angry and disrespectful!" data-points="-30">Lost an argument</button>
+            <button class="activity" data-aura="You feel Proud!" data-points="180">Motivated others</button>
+            <button class="activity" data-aura="You feel inadequacy and disappointment " data-points="-99">Over confidence</button>
+        </div>
+        <div id="result"></div>
+        <div id="score-section">
+            <h2>Your Aura Score: <span id="aura-score">0</span></h2>
+            <button id="reset-aura">Reset</button>
+    </div>
+</div>
+
+    <script src="AURA.js"></script>
+</body>
+</html>
